@@ -5,7 +5,7 @@ import Todo from './Todo'
  
 class TodosContainer extends Component {
   
-  SrenderTodos = () => this.props.todos.map((todo, id) => <Todo key={id} text={todo} />)
+  renderTodos = () => this.props.todos.map((todo, id) => <Todo key={id} text={todo} />)
  
   render() {
     return(
